@@ -8,4 +8,5 @@ COPY ./js/* /usr/share/nginx/html/js/
 COPY ./about/* /usr/share/nginx/html/about/
 COPY ./logos/* /usr/share/nginx/html/logos/
 COPY ./portfolio/* /usr/share/nginx/html/portfolio/
+COPY ./portfolio2/* /usr/share/nginx/html/portfolio2/
 COPY ./team/* /usr/share/nginx/html/team/
