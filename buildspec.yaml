@@ -10,7 +10,7 @@ phases:
       - mv ./kubectl /usr/local/bin/kubectl
       - mkdir ~/.kube
       - aws eks --region ap-northeast-2 update-kubeconfig --name eks
-      - kubectl get pod --all-namespaces
+      #- kubectl get pod --all-namespaces
       #- kubectl get pod -n kube-system
   pre_build:
     commands:
